@@ -26,25 +26,34 @@ body{
     background-color: #1F2937;
     display: flex;
     padding: 20px;
-   
-    justify-content: center;
-    align-items: center;
+
+    
+    
     
 
 }
 .header div{
     flex: 1;
-    color: #e5e7eb
-   
+    color: #e5e7eb;
+  
+
 
 }
 .header button{
-    
+    margin-left: 35%;
     background-color: rgb(44, 151, 227);
     color: #F9FAF8;
+    border-radius: 12px;
 }
 .header h1{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    
+}
+#image{
+    background-color: gray;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
 }
