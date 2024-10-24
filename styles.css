@@ -102,3 +102,22 @@ ul{
     text-align: right;
     
 }
+.signup{
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 12px;
+    height: 25px;
+    width: 80px;
+    border-color: #E5E7EB;
+}
