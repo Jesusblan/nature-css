@@ -91,8 +91,14 @@ ul{
 }
 .quote{
     background-color: #E5E7EB;
-  
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
     font-size: 36px;
     font-family: "light italic";
     color: #1F2937;
+}
+.quoteautor{
+    text-align: right;
+    
 }
