@@ -4,6 +4,9 @@ body{
    margin: 0;
    
 }
+ul{
+    list-style: none;
+}
 
 
 .topbar{
@@ -27,23 +30,19 @@ body{
     display: flex;
     padding: 20px;
 
-    
-    
-    
-
 }
 .header div{
     flex: 1;
     color: #e5e7eb;
   
-
-
 }
 .header button{
-    margin-left: 35%;
-    background-color: rgb(44, 151, 227);
+    margin-left: 32%;
+    background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 12px;
+    height: 33px;
+    width: 90px;
 }
 .header h1{
     font-size: 48px;
@@ -56,4 +55,44 @@ body{
     display: flex;
     justify-content: center;   
     align-items: center;
+}
+.info{
+    margin: 0;
+    padding: 0;
+}
+.info h1{
+    text-align: center;
+     weight: 900;
+     color: #1F2937;
+     font-size: 36px;
+    
+}
+.info ul{
+    display: flex;
+    
+    color: #9c9ea3;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.info li{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+}
+.ifoimg {
+    height: 150px;
+    width: 150px;
+    border: 3px;
+    border-radius: 15px;
+    background-color: #3882F6
+}
+.quote{
+    background-color: #E5E7EB;
+  
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1F2937;
 }
